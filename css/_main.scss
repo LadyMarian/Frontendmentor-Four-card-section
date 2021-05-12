@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__container {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 8px 8px 16px $GrayishBlue;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    
+    &__title {
+        font-size: 18px;
+        font-weight: $Bold;
+        margin: 0;
+    }
+
+    &__subtitle {
+        font-size: 12px;
+        font-weight: $Light;
+        margin-top: 10px;
+        line-height: 1.7;
+    }
+
+    &__img {
+        align-self: flex-end;
+        margin-top: 1rem;
+        width: 50px;
+    }
+
+    &__cyan {
+        border-top: 6px solid $Cyan;
+    }
+    &__red {
+        border-top: 6px solid $Red;
+    }
+    &__orange {
+        border-top: 6px solid $Orange;
+    }
+    &__blue {
+        border-top: 6px solid $Blue;
+    }
+}

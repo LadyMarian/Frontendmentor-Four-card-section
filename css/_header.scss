@@ -1,0 +1,20 @@
+.header {
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+
+    &__title {
+        font-weight: $Regular;
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    &__subtitle {
+        margin: 0;
+        font-weight: $Bold;
+        font-size: 22px;
+    }
+
+    &__info {
+        font-size: 14px;
+    }
+}
